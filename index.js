@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 
 
-app.post('/process_post', urlencodedParser, function (req, res) {  
+app.post('/userdata', urlencodedParser, function (req, res) {  
    response = {  
       first_name:req.body.first_name,  
       last_name:req.body.last_name  
