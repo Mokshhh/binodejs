@@ -42,7 +42,7 @@ app.post('/userdata', urlencodedParser, desponse);
 //     return res.end();
 //   });
 // }
-
+//nn
 //note to self: objects in function cant be used outside that function
 //console.log('The resulted',jsonString);
 
